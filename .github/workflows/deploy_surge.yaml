@@ -13,7 +13,7 @@ jobs:
       - name: Node Setup
         uses: actions/checkout@v2-beta
         with:
-          node_version: '12'
+          node-version: '12'
       - name: setup surge
         run: npm install --global surge
       - name: deployment with surge
